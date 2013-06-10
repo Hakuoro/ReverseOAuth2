@@ -1,16 +1,15 @@
 {
-    "name": "silvester/reverse-oauth2",
+    "name": "Hakuoro/reverse-oauth2",
     "description": "Oauth2 client for zf2. Facebook, github and google is supported.",
     "minimum-stability": "dev",
     "type" : "module",
-    "homepage" : "https://github.com/silvester/ReverseOAuth2",
+    "homepage" : "https://github.com/Hakuoro/ReverseOAuth2",
     "keywords" : ["oauth2", "zf2", "module"],
     "license" : "MIT",
     "authors": [
         {
-            "name": "Silvester Maraz",
-            "email": "silvester.maraz@reverse.si",
-            "homepage": "http://maraz.org"
+            "name": "Pechorin Boris",
+            "email": "pechor@gmail.com"
         }
     ],
     "require": {

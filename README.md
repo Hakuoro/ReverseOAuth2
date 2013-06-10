@@ -7,22 +7,13 @@ Another OAuth2 client for ZF2. It provides clients for github, google, facebook 
 
 The library is kept as simple as possible, it does not provide routes or controllers.
 
-Demo
-----
-Minimum rights are used. If you feel intimidated revoke the rights. Click the login button. 
-
-Github: http://reverseform.modo.si/oauth-github
-
-Google: http://reverseform.modo.si/oauth-google
-
-Facebook: http://reverseform.modo.si/oauth-facebook
 
 Installation with Composer
 --------------------------
 1. Add this project in your `composer.json`:
 ```json
     "require": {
-        "silvester/reverse-oauth2": "dev-master",
+        "hakuoro/reverse-oauth2": "dev-master",
     }
 ```
 
@@ -204,9 +195,3 @@ public function onBootstrap(Event $e)
 
 }
 ```
-
-TODO
-----
-* Add other clients
-* Write some decent documentation.
-* Demo module is on it's way.

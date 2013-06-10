@@ -12,7 +12,9 @@ return array(
 
             'ReverseOAuth2\Github' => 'ReverseOAuth2\Client\GithubFactory',
             
-            'ReverseOAuth2\Facebook' => 'ReverseOAuth2\Client\FacebookFactory'
+            'ReverseOAuth2\Facebook' => 'ReverseOAuth2\Client\FacebookFactory',
+
+            'ReverseOAuth2\Vkontakte' => 'ReverseOAuth2\Client\VkontakteFactory'
             
         ),
         
@@ -23,6 +25,19 @@ return array(
     ),
     
     'reverseoauth2' => array(
+
+        'vk' => array(
+            'scope' => array(
+                'friends',
+                'photos',
+            ),
+            'auth_uri'      => 'https://oauth.vk.com/authorize',
+            'token_uri'     => 'https://oauth.vk.com/access_token',
+            'info_uri'      => 'https://api.vk.com/method/users.get',
+            'client_id'     => 'your id',
+            'client_secret' => 'your secret',
+            'redirect_uri'  => 'your callback url which links to your controller',
+        ),
         
         'google' => array(
             'scope' => array(
@@ -36,7 +51,7 @@ return array(
             'client_secret' => 'your secret',
             'redirect_uri'  => 'your callback url which links to your controller',
         ),
-        
+
         'facebook' => array(
             'scope' => array(
                 /*
