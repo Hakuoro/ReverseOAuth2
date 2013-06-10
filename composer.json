@@ -1,5 +1,5 @@
 {
-    "name": "Hakuoro/reverse-oauth2",
+    "name": "hakuoro/reverse-oauth2",
     "description": "Oauth2 client for zf2. Facebook, github and google is supported.",
     "minimum-stability": "dev",
     "type" : "module",
